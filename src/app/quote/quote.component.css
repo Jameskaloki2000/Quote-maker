@@ -6,3 +6,7 @@
   width: 100px;
   margin-right: 20px;
 }
+.container-fluids {
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -1,11 +1,18 @@
-<div class="card" style="width: 18rem">
-  <div class="card-body">
-    <h5 class="card-title">Name</h5>
-    <p class="card-text">
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </p>
-    <a href="#" class="btn btn-primary btn-details"> Details</a>
-    <a href="#" class="btn btn-primary btn-delete">Delete</a>
+<div class="container-fluids">
+  <div
+    class="card"
+    *ngFor="let quote of quotes; let i = index"
+    style="width: 18rem"
+  >
+    <div class="card-body">
+      <h5 class="card-title">{{ i }}</h5>
+      <div class="id">index</div>
+      <p class="card-text">
+        Some quick example text to build on the card title and make up the bulk
+        of the card's content.
+      </p>
+      <a href="#" class="btn btn-primary btn-details"> Details</a>
+      <a href="#" class="btn btn-primary btn-delete">Delete</a>
+    </div>
   </div>
 </div>

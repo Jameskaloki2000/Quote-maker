@@ -1,5 +1,5 @@
 export class Quote {
-  name: string;
+  names: string;
   author: string;
   quote: string;
   completed: boolean;

@@ -7,6 +7,28 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   constructor() {}
-  Quotes: Quote[];
-  ngOnInit(): void {}
+  quotes: Quote[];
+
+  ngOnInit(): void {
+    this.quotes = [
+      {
+        names: 'John',
+        author: 'ANDY',
+        quote: 'hbadbs',
+        completed: false,
+      },
+      {
+        names: 'John',
+        author: 'ANDY',
+        quote: 'hbadbs',
+        completed: false,
+      },
+      {
+        names: 'John',
+        author: 'ANDY',
+        quote: 'hbadbs',
+        completed: false,
+      },
+    ];
+  }
 }
